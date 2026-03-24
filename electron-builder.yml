@@ -1,5 +1,5 @@
-appId: com.Task-1.Todolist
-productName: Kelvin To do list
+appId: com.Task-1.Calculator
+productName: Task 1 Calculator
 directories:
   buildResources: build
 files:
@@ -12,8 +12,8 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: Todolist
-  icon: resources/todo.png
+  executableName: Calculator
+  icon: resources/calculator.png
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
